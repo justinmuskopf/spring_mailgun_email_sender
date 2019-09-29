@@ -108,5 +108,5 @@ class MyClass {
 }
 ```
 
-### Using the Module
+## Using the Module
 As of right now the best way to utilize this module is to clone and include it directly (... _Import Existing Module_) into your project.
