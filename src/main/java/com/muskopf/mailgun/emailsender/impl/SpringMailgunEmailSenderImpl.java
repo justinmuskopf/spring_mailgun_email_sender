@@ -61,6 +61,7 @@ public class SpringMailgunEmailSenderImpl implements EmailSender {
                         uriBuilder.queryParam("from", from);
                         uriBuilder.queryParam("subject", subject);
                         uriBuilder.queryParam("text", body);
+
                         return uriBuilder.build();
                     })
                     .headers(h -> h.setBasicAuth("api", apiKey))

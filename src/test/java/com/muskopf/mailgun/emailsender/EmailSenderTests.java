@@ -38,6 +38,6 @@ public class EmailSenderTests {
                 .useDefaultSender()
                 .build();
 
-        MailgunResponse response = emailSender.sendEmail(email);
+        //MailgunResponse response = emailSender.sendEmail(email);
     }
 }
