@@ -58,7 +58,7 @@ Take notice of some of the `useDefault` convenience methods that the `EmailBuild
                            .build();
       }
     ```
-    **NOTE:** This requires that each of the defaults for the `subject`, `recipients`, and `sender name/email address` are defined in your Spring Context (see: [Defining Defaults](#email-builder-defaults)). If _any_ of them are not, a corresponding EmailException](#EmailException) will be thrown.
+    **NOTE:** This requires that each of the defaults for the `subject`, `recipients`, and `sender name/email address` are defined in your Spring Context (see: [Defining Defaults](#email-builder-defaults)). If _any_ of them are not, a corresponding [EmailException](#EmailException) will be thrown.
   
   - There are similar methods to use the individual default values instead of all of them:
   
