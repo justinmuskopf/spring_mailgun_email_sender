@@ -1,11 +1,13 @@
 package com.muskopf.mailgun.emailsender.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 import java.util.Set;
 
 @Component
+@ComponentScan(basePackages = "com.muskopf.mailgun.emailsender")
 @ConfigurationProperties(prefix = "mailgun.email-sender")
 public class EmailSenderConfiguration {
     private String messagesUrl;
